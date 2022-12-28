@@ -8,12 +8,19 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var viewModel = DogViewModel()
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
+            if let image = viewModel.image{
+                Image(uiImage: image)
+                    .frame(width: 200,height: 200)
+            }
+            
             Text("Hello, world!")
+        }
+        .onAppear{
+            viewModel.getDogs()
+            viewModel.decodeJsonToStruct()
         }
         .padding()
     }
