@@ -11,6 +11,7 @@
 		049E4AAA293094C80082848D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E4AA9293094C80082848D /* ContentView.swift */; };
 		049E4AAC293094CA0082848D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E4AAB293094CA0082848D /* Assets.xcassets */; };
 		049E4AAF293094CA0082848D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049E4AAE293094CA0082848D /* Preview Assets.xcassets */; };
+		049E4AB6293094D80082848D /* DogViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049E4AB5293094D80082848D /* DogViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		049E4AA9293094C80082848D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		049E4AAB293094CA0082848D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		049E4AAE293094CA0082848D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		049E4AB5293094D80082848D /* DogViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				049E4AA9293094C80082848D /* ContentView.swift */,
 				049E4AAB293094CA0082848D /* Assets.xcassets */,
 				049E4AAD293094CA0082848D /* Preview Content */,
+				049E4AB5293094D80082848D /* DogViewModel.swift */,
 			);
 			path = Dog;
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				049E4AB6293094D80082848D /* DogViewModel.swift in Sources */,
 				049E4AAA293094C80082848D /* ContentView.swift in Sources */,
 				049E4AA8293094C80082848D /* DogApp.swift in Sources */,
 			);
