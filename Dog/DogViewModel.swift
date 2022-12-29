@@ -12,7 +12,7 @@ class DogViewModel : ObservableObject{
     
     @Published var image : UIImage?
     @Published var planet : Planet?
-    // add new feature
+    // add new feature 
     func getDogs(){
         //https://dog.ceo/api/breeds/image/random
         
