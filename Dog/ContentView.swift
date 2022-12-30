@@ -17,7 +17,7 @@ struct ContentView: View {
             }
             
 
-            Text("Feature Chat-Profile")
+            Text("Feature Chat-Room Final")
         }
         .onAppear{
             viewModel.getDogs()
