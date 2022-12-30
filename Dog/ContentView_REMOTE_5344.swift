@@ -16,7 +16,6 @@ struct ContentView: View {
                     .frame(width: 200,height: 200)
             }
             
-
             Text("Feature Chat-Room")
         }
         .onAppear{
