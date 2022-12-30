@@ -17,7 +17,11 @@ struct ContentView: View {
             }
             
 
+<<<<<<< HEAD
+            Text("Feature Chat-Profile1")
+=======
             Text("Feature Chat-Room Final")
+>>>>>>> feature/chat-room
         }
         .onAppear{
             viewModel.getDogs()
