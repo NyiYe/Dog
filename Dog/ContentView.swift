@@ -16,7 +16,7 @@ struct ContentView: View {
                     .frame(width: 200,height: 200)
             }
             
-            Text("Feature one")
+            Text("Feature Chat Room")
         }
         .onAppear{
             viewModel.getDogs()
